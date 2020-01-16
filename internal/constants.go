@@ -23,8 +23,8 @@ var manga_dead_counter = 0
 var Grid[MAX_X * MAX_Y]cell
 
 var Manga[]manga
-//var Predo[]predo
-//var eggPredo[]eggPredo
+var Predo[]predo
+var EggPredo[]eggPredo
 
 func findCellIndex(x, y int) int {
 	for i, element := range Grid {

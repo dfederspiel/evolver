@@ -13,7 +13,7 @@ type cell struct {
 func NewCell(e evolvee) cell {
 	return cell{
 		evolvee: e,
-		Fertile: false,
+		Fertile: true,
 	}
 }
 

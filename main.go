@@ -18,5 +18,6 @@ func main(){
 	fmt.Println(a2.Display())
 	a2.Grow()
 	fmt.Println(a2.Display())
+	a2.Spread(0,0,2,4)
 
 }
