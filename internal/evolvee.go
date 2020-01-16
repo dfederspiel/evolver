@@ -18,12 +18,13 @@ func (e evolvee) Display() string {
 	return fmt.Sprintf("Class=%s ID=%d XY=%s Maturity=%d", e.Classification, e.Id, e.XY(), e.Maturity)
 }
 
-func NewEvolvee(classification string, id, x, y int) *evolvee {
-	e := new(evolvee)
-	e.Classification = classification
-	e.Id = id
-	e.X = x
-	e.Y = y
-	e.Maturity = 1
-	return e
+func NewEvolvee(classification string, id, x, y int) evolvee {
+	ev := evolvee{
+		Classification: classification,
+		Id:             id,
+		X:              x,
+		Y:              y,
+		Maturity: 		1,
+	}
+	return ev
 }
