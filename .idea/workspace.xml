@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c33d77-4282-4a97-b038-e49bca7b599f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/evolvee.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/animal.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/evolvee.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/evolvee.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   <component name="GOROOT" path="$USER_HOME$/sdk/go1.13.6" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1WSiYDNCn9TiyDEnsa0FlDcsxC7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,6 +39,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -76,21 +78,41 @@
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="570" y="188" key="#Go_Modules_(vgo)/0.23.1680.961@0.23.1680.961" timestamp="1579150019200" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1579151613628">
+    <state x="880" y="188" width="800" height="717" key="#Intentions" timestamp="1579152584160">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1579151613628" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1579151613627">
+    <state x="880" y="188" width="800" height="717" key="#Intentions/0.23.1680.961@0.23.1680.961" timestamp="1579152584160" />
+    <state x="1172" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1579153935225">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1579151613627" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1579151613626">
+    <state x="1172" y="266" key="#com.intellij.ide.util.MemberChooser/0.23.1680.961@0.23.1680.961" timestamp="1579153935225" />
+    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1579154156881">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1579151613626" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1579151613628">
+    <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1579154156881" />
+    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1579154156879">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1579151613628" />
+    <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1579154156879" />
+    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1579154156879">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1579154156879" />
+    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1579154156880">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1579154156880" />
+    <state x="309" y="143" key="SettingsEditor" timestamp="1579154411217">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="309" y="143" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1579154411217" />
+    <state x="485" y="257" key="Vcs.Push.Dialog.v2" timestamp="1579151768604">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="485" y="257" key="Vcs.Push.Dialog.v2/0.23.1680.961@0.23.1680.961" timestamp="1579151768604" />
+    <state x="589" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579154443859">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="589" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.961@0.23.1680.961" timestamp="1579154443859" />
   </component>
 </project>
